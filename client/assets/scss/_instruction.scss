@@ -10,13 +10,19 @@
   }
 }
 
+#landing {
+  .instruction {
+    .row:first-child {
+      padding-top:30px
+    }
 
-.instruction {
-  .row:first-child {
-    padding-top:100px
-  }
+    .mid-separator-top {
+      height:460px !important;
+    }
 
-  .mid-separator-top {
-    height:460px !important;
-  }
+    .wrap {
+      height: 500px;
+    }
+  }  
 }
+
